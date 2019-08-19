@@ -1,0 +1,28 @@
+{
+  "visual": {
+    "name": "IconFiller",
+    "displayName": "Icon Filler",
+    "guid": "iconFiller316E184D50974591813CF51F3E87A0DDS",
+    "visualClassName": "Visual",
+    "version": "2.0.0",
+    "description": "Represents percentages by taking an SVG icon and filling it up to said percentage.",
+    "supportUrl": "https://github.com/PesceJonathan/IconFill",
+    "gitHubUrl": "https://github.com/PesceJonathan/IconFill"
+  },
+  "apiVersion": "2.5.0",
+  "author": {
+    "name": "Jonathan Pesce",
+    "email": "jonathanpesce@hotmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/d3/d3.min.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
